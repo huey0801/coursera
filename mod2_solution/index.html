@@ -1,0 +1,130 @@
+<doctype! html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edte">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Module 2 Solution</title>
+	
+<style>
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+.row {
+	width: 100%;
+	padding: 5px;
+}
+
+h1 {
+	text-align: center;
+	font-family: avenir;
+	font-size: 1.75em;
+	margin-top: 20px;
+}
+
+#container1, #container2, #container3 {
+	position: static;
+	float: left;
+}
+
+article {
+	position: relative;
+	background-color: #fff;
+	border: 1px solid black;
+	margin: 12px;
+}
+
+p {
+	padding: 10px;
+	margin-top: 40px;
+	clear: right;
+	font-family: avenir;
+}
+
+h2 {
+	width: 150px;
+	border: 1px solid black;
+	text-align: center;
+	font-family: avenir;
+	font-size: 1.25em;
+}
+
+#h2a {
+	background-color: #d59998;
+	position: absolute;
+	right: 0;
+}
+
+#h2b {
+	background-color: #c14543;
+	position: absolute;
+	right: 0;
+}
+
+#h2c {
+	background-color: #e4d198;
+	position: absolute;
+	right: 0;
+}
+
+
+@media (min-width: 992px) {
+  #container1 {
+  	width: 33.33%;
+  }
+  #container2 {
+  	width: 33.33%;
+  }
+  #container3 {
+  	width: 33.33%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #container1 {
+  	width: 50%;
+  }
+  #container2 {
+  	width: 50%;
+  }
+  #container3 {
+  	width: 100%;
+  }
+}
+
+</style>
+
+<h1>Our Menu</h1>
+</head>
+<body>
+ 
+<div class="row">
+	<div id="container1">
+	<article>
+		<h2 id="h2a">Chicken</h2>
+		<p id="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et diam at dolor hendrerit fringilla et in urna. Quisque et vestibulum tortor. Maecenas nec lectus bibendum, gravida nulla sed, blandit enim. Proin pharetra id orci sit amet congue.</p>
+	</article>
+	</div>
+
+	<div id="container2">
+	<article>
+		<h2 id="h2b">Beef</h2>
+		<p id="p2">Aliquam id iaculis urna, congue gravida tellus. Phasellus ligula sem, ultrices id orci sit amet, auctor tristique sapien. Phasellus eu augue iaculis, consectetur augue ut, placerat ligula. Duis convallis ac nisl sed tristique. Mauris eget volutpat mauris.</p>
+	</article>
+	</div>
+
+	<div id="container3">
+	<article>
+		<h2 id="h2c">Sushi</h2>
+		<p id="p3">Nam facilisis, magna non consequat mollis, tortor augue iaculis quam, in euismod arcu risus id orci. Fusce fermentum eros non lectus interdum euismod. Morbi lectus erat, commodo eu nunc eget, volutpat malesuada neque. Quisque eu sagittis risus. Aliquam erat volutpat.</p>
+	</article>
+	</div>
+</div>
+
+</body>
+</html>
+
