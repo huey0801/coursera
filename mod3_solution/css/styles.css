@@ -1,5 +1,14 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+h1 {
+	font-weight: bold;
+}
+a, a:hover {
+	color: #06c;
+}
 #navbar {
-	margin-bottom: 15px;
+	margin-bottom: 50px;
 }
 
 #navbar a {
@@ -11,10 +20,21 @@
 .navbar-nav {
 	padding-bottom: 10px;
 }
-
-#chicken {
-	height: 1000px;
-	background-color: #ccc;
-	padding: 0 20px 20px;
-	margin-top: 5px;
+.container {
+	margin-top: 20px;
+}
+.row {
+	display: flex;
+}
+.row div {
+	background-color: #fbfbfd;
+	padding: 5px 15px 15px;
+	margin-bottom: 5px;
+	height: 100%;
+} 
+.row a {
+	bottom: 0;
+}
+#chicken, #beef, #sushi {
+	padding: 10px;
 }
